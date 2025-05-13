@@ -10,3 +10,7 @@ section[id]:before {
   visibility: hidden;
   content: "";
 }
+
+html {
+  scroll-behavior: smooth;
+}
