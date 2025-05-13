@@ -1,7 +1,7 @@
 function Projects() {
     return (
       <section id="projects">
-        <div className="text-center bg-base-200 py-16 px-4 ">
+        <div className="scroll-mt-16 text-center bg-base-200 py-16 px-4 ">
           <h2 className="text-4xl font-bold mb-6">My Projects</h2>
           <p className="text-lg mb-12">Here are a few projects I've worked on. You can check them out on GitHub or see their live demos!</p>
   
