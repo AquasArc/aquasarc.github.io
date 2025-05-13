@@ -27,54 +27,66 @@ function Home() {
         </p>
 
         {/* Contact / Social Links */}
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-12 mb-6">
           {/* Phone */}
-          <a
-            href="tel:1234567890"
-            className="tooltip tooltip-bottom"
-            data-tip="Phone"
-          >
-            <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
-              <FaPhone />
-            </div>
-          </a>
+          <div className="flex flex-col items-center">
+            <a
+              href="tel:6505808385"
+              className="tooltip tooltip-bottom"
+              data-tip="Phone"
+            >
+              <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
+                <FaPhone />
+              </div>
+            </a>
+            <p className="text-sm text-base-content mt-2">(650) 580-8385</p>
+          </div>
 
           {/* Email */}
-          <a
-            href="mailto:your@email.com"
-            className="tooltip tooltip-bottom"
-            data-tip="Email"
-          >
-            <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
-              <FaEnvelope />
-            </div>
-          </a>
+          <div className="flex flex-col items-center">
+            <a
+              href="mailto:antonlim23232@gmail.com"
+              className="tooltip tooltip-bottom"
+              data-tip="Email"
+            >
+              <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
+                <FaEnvelope />
+              </div>
+            </a>
+            <p className="text-sm text-base-content mt-2">antonlim23232@gmail.com</p>
+          </div>
 
           {/* GitHub */}
-          <a
-            href="https://github.com/your-username"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="tooltip tooltip-bottom"
-            data-tip="GitHub"
-          >
-            <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
-              <FaGithub />
-            </div>
-          </a>
+          <div className="flex flex-col items-center">
+            <a
+              href="https://github.com/AquasArc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tooltip tooltip-bottom"
+              data-tip="GitHub"
+            >
+              <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
+                <FaGithub />
+              </div>
+            </a>
+            <p className="text-sm text-base-content mt-2">AquasArc</p>
+          </div>
 
           {/* LinkedIn */}
-          <a
-            href="https://linkedin.com/in/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="tooltip tooltip-bottom"
-            data-tip="LinkedIn"
-          >
-            <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
-              <FaLinkedin />
-            </div>
-          </a>
+          <div className="flex flex-col items-center">
+            <a
+              href="https://www.linkedin.com/in/antonnlim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tooltip tooltip-bottom"
+              data-tip="LinkedIn"
+            >
+              <div className="text-xl bg-base-200 p-3 rounded-full hover:bg-primary hover:text-white transition duration-200 shadow-md cursor-pointer">
+                <FaLinkedin />
+              </div>
+            </a>
+            <p className="text-sm text-base-content mt-2">antonnlim</p>
+          </div>
         </div>
       </div>
     </section>
