@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Navbar />
       <main className="mt-16 space-y-24">
         <Home />
-        <Projects />
         <About />
+        <Skills />
+        <Projects />
         <Contact />
       </main>
       <Footer />
